@@ -1,7 +1,6 @@
 # DZC_Project
 
-This project aims to create a dashboard for analysis on the traffic accidents happening in Chichago. Crash data obtained shows information about each traffic crash on city streets within the City of Chicago limits and under the jurisdiction of Chicago Police Department (CPD).
-
+This project aims to create a dashboard for analysis on the social-economical factors that could possibly affect the suicide rates amongst the population in different countries. The analysis is also detailed down to the different generations of people based on their age group.
 
 
 ## Table of Contents

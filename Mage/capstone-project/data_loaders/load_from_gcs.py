@@ -18,13 +18,7 @@ def load_from_google_cloud_storage(*args, **kwargs):
     """
     config_path = path.join(get_repo_path(), 'io_config.yaml')
     config_profile = 'default'
-    '''
-    repeat process by changing country to 
-    country_social_economic_year,
-    countrycode,
-    population,
-    suicide_data
-    '''
+   
     tablename = 'suicide_data'
     bucket_name = 'dzc_capstone_412212'
     object_key = f"{tablename}.parquet"

@@ -18,13 +18,9 @@ def load_data_from_file(*args, **kwargs):
 
     Docs: https://docs.mage.ai/design/data-loading#fileio
     """
-    '''
-    repeat process by changing country to 
-    country_social_economic_year,
-    countrycode,
-    population,
-    suicide_data
-    '''
+   
+    
+ 
     tablename = 'suicide_data'
     filepath = f"/home/src/dataset/{tablename}.csv"
     

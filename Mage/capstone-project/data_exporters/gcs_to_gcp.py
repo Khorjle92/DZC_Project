@@ -25,7 +25,7 @@ def export_data_to_big_query(df: DataFrame ,**kwargs) -> None:
     suicide_data
     '''
     tablename = 'suicide_data'
-    table_id = f"second-core-412212.SuicideRate.{tablename}"
+    table_id = f"second-core-412212.suicide_rate.{tablename}"
     config_path = path.join(get_repo_path(), 'io_config.yaml')
     config_profile = 'default'
 

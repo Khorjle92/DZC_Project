@@ -24,7 +24,7 @@ variable "location" {
 
 variable "bq_dataset_name" {
   description = "My BigQuery Dataset Name"
-  default     = "SuicideRate"
+  default     = "suicide_rate"
 }
 
 variable "gcs_storage_class" {

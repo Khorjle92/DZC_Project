@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: staging
+    database: second-core-412212
+    schema: suicide_rate
+
+
+    tables:
+      - name: suicide_data
+    

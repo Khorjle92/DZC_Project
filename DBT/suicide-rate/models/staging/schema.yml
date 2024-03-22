@@ -6,8 +6,5 @@ sources:
 
 
     tables:
-      - name: population
-      - name: country
-      - name: countrycode
       - name: suicide_data
-      - name: country_social_economic_year
+    

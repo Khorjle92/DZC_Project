@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: staging
+    database: second-core-412212
+    schema: suicide_rate
+
+
+    tables:
+      - name: population
+      - name: country
+      - name: countrycode
+      - name: suicide_data
+      - name: country_social_economic_year

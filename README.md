@@ -66,7 +66,7 @@ Fourth - Export the file to GCP
 ![DBT Lineage](/Images/dbt-lineage.jpg)
 
 Staging - suicide_data  
-Seed - country, countrycode, population, country_social_economic_year  
+Seed - country, countrycode, population
 Macro- generation_name.sql is used to label the age group to their respective generation name according to [USC Research Library Guides](https://libguides.usc.edu/busdem/age#:~:text=The%20Baby%20Boomer%20Generation%20%E2%80%93%20born,Z%20%E2%80%93%20born%201995%2D2012)
 
 4) GCP

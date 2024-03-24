@@ -45,7 +45,7 @@ Ensure Terraform-IaC steps are done before continuation
 - Go to the directory of Mage and docker-compose up.
 - Go to localhost:6789
 - Run pipeline loading_local_data_to_cloud  
-- Go 
+
 
 ![Mage UI](/Images/mage-pipeline-ui.jpg)
 
@@ -63,10 +63,10 @@ Fourth - Export the file to GCP
 3) DBT - Cloud
 - Run dbt built or deploy a job to run the project  
 
-![DBT Lineage](/Images/dbt-lineage.jpg)
+![DBT Lineage](/Images/dbt-lineage2.jpg)
 
 Staging - suicide_data  
-Seed - country, countrycode, population
+Seed - country, countrycode, population  
 Macro- generation_name.sql is used to label the age group to their respective generation name according to [USC Research Library Guides](https://libguides.usc.edu/busdem/age#:~:text=The%20Baby%20Boomer%20Generation%20%E2%80%93%20born,Z%20%E2%80%93%20born%201995%2D2012)
 
 4) GCP

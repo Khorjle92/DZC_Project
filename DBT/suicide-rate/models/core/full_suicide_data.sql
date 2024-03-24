@@ -37,13 +37,8 @@ SELECT
     s.DeathRatePer100K,
     s.CountryName,
     r.RegionName,
-    p.Population,
-    e.GDP,
-    e.GDPPerCapita,
-    e.GrossNationalIncome,
-    e.GNIPerCapita,
-    e.InflationRate,
-    e.EmploymentPopulationRatio
+    p.Population
+    
 FROM
     suicidedata s
 INNER JOIN

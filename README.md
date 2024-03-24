@@ -15,18 +15,22 @@ Instructions for installing or setting up the project.
 
 1) Git Clone this repo
 
+2) Google Cloud - Cloud  
+1- Go to IAM and download your Terraform IAM service account json file and save under Terraform/keys as my-creds.json  
+2- Go to IAM and donwload your Mage IAM service account json file and save as your-gcp-mage.json under Mage  
+3- Go to IAM and download your DBT IAM service accont json (for DBT Cloud) as your-gcp-dbt.json
+Sample of roles is shown below  
 
-2) Terraform - IaC  
+![IAM roles](/Images/roles-gcp.JPG)
+
+
+3) Terraform - IaC  
 1- Edit the Project Name in variables.tf to your own GCP Project Name  
 2- Save your GCP Terraform IAM service account json under Terraform/keys as my-creds.json  
 3- Open a terminal and run terraform apply to get the set up in action  
 4- Check that the bucket is created in Google Cloud Storage  
 
 
-3) Google Cloud - Cloud  
-1- Go to IAM and download your Terraform IAM service account json file and save under Terraform/keys as my-creds.json  
-2- Go to IAM and donwload your Mage IAM service account json file and save under Mage  
-3- Go to IAM and download your DBT IAM service accont json (for DBT Cloud)  
 
 4) DBT - Cloud
 1- Create a new project and sync up to this repo that you have cloned 
@@ -35,10 +39,13 @@ Instructions for installing or setting up the project.
 
 ## Usage
 
+Ensure Terraform-IaC steps are done before continuation  
+
 1) Mage
 - Go to the directory of Mage and docker-compose up.
 - Go to localhost:6789
 - Run pipeline loading_local_data_to_cloud  
+- Go 
 
 ![Mage UI](/Images/mage-pipeline-ui.jpg)
 
@@ -55,6 +62,7 @@ Fourth - Export the file to GCP
 
 3) DBT - Cloud
 - Run dbt built or deploy a job to run the project  
+
 ![DBT Lineage](/Images/dbt-lineage.jpg)
 
 Staging - suicide_data  

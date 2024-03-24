@@ -19,10 +19,6 @@ dim_countrycode as (
 dim_population as (
     select * 
     from {{ ref("population")}}
-),
-dim_country_sey as (
-    select *
-    from {{ ref("country_social_economic_year")}}
 )
 
 
@@ -54,5 +50,3 @@ INNER JOIN
     dim_countrycode r ON s.countrycode = r.countrycode
 LEFT JOIN
     dim_population p ON s.countrycode = p.countrycode AND s.Year = p.Year 
-LEFT JOIN
-    dim_country_sey e ON s.countrycode = e.countrycode AND s.Year = e.Year

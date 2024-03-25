@@ -82,7 +82,7 @@ If you need to download the dataset, you can find it in Dataset folder.
 
 ![Dashboard](/Images/full-dashboard.JPG)
 
-<u>Analysis</u>  
+Analysis:  
 Summing up over the years from 1990 to 2022, the country that has the highest suicide count is Russia. 
 Regionally, Europe has the highest suicide count, followed by Asia. Although North America and the Caribbean is ranked 3rd in the suicide count regionally, it is noted that USA is ranked 2nd for the highest suicide count based on Country. 
 
@@ -98,7 +98,7 @@ Overall, the suicide rate is generally showing a decline over the years, with si
 
 From the line chart, it is apparent that the suicide count for Male is much larger than that of the Female. 
 
-Also, by Age group, the Generation X (35-54 ears old) holds the highest suicide count and is apparent throughout the regions as well.
+Also, by Age group, the Generation X (35-54 years old) holds the highest suicide count and is apparent throughout the regions as well.
 
 In summary, the most vulnerable group in general is the Male from the Generation X (35-54 years old), and perhaps especially in the USA. More effort and emphasis should be placed on this target group with the aim to reduce the suicide count as much as possible. Authorities and Social Groups can reach out to them by having more awareness campaign to understand them better and hope to resolve their problems before they choose suicide as their option.
 

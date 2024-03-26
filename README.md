@@ -12,7 +12,7 @@ The dataset consists of the suicide data obtained from various countries from 19
 - [Dashboard](#dashboard)
 
 ## FlowChart
-![Flow Chart](/Images/data-flow-chart.jpg)  
+![Flow Chart](/Images/data-flow-chart.JPG)  
 The above flow chart describe how this project was created.
 
 ## SettingUp
